@@ -1,0 +1,188 @@
+
+
+
+
+.container-fluid{
+    padding-right: 0px; 
+    padding-left: 0px;
+}
+
+.nav-item i{
+    color: green;
+
+}
+
+.icons i{
+    padding: 2px 5px ;
+    color: white;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar{
+    background-color: #0F0F0F;
+}
+
+.nn1{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nn1:hover{
+    color: green;
+}
+
+.navbar-brand{
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding-left: 60px;
+    font-family: "Poppins", sans-serif;
+}
+
+.backgroundimage{
+    background-image: url('../img/hero-bg.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+   
+   
+    
+
+}
+
+.layout{
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 90vh;
+}
+.layout div{
+    text-align: center;
+}
+
+.layout div h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.layout div p{
+    font-size: 25px;
+
+    color: #E9E9E9;
+}
+
+.layout div button{
+    border: 2px solid green;
+    border-radius: 50px;
+    padding: 7px 30px;
+}
+
+@media (max-width : 600px){
+    .layout div h1{
+        font-size: 30px;
+    }
+    
+.layout div p{
+    font-size: 18px;}
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+
+
+/* ========================start section 2============================================= */
+
+.parentoficon{
+    /* background-color: red; */
+    text-align: center;
+ 
+
+}
+.parentoficon .iconlikeiamge{
+    font-size: 50px;
+    padding: 10px 10px;
+    margin: 40px auto;
+    color: #8FC04E;
+    border: 2px solid #8FC04E;
+
+}
+
+.parentoficon .iconlikeiamge:hover{
+    color: white;
+    background-color:#8FC04E ;
+}
+
+.item1{
+    border: none;
+}
+
+
+@media(max-width : 600px){
+    .content h2{
+        font-size: 20px;
+    }
+}
+
+/* ========================end section 2============================================= */
+
+
+
+
+
+/* ========================start section 3============================================= */
+
+.nav-pills{
+    justify-content: center;
+}
+
+.nav-pills .lichange{
+    background-color: lightgray;
+    margin: 10px ;
+    border-radius: 50px;
+}
+.nav-pills .nav-link{
+    border-radius: 50px;
+}
+.nav-pills .nav-link.active{
+    background-color: #8FC04E;
+}
+
+
+.portfolio_hover_parent{
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.portfolio_hover_parent img{
+  
+    transition: all ease-in-out 0.5s;
+}
+
+.portfolio_hover{
+    background-color:#8FC04E;
+    position: absolute;
+    top: 100%;
+    width: 90%;
+    transition: all ease-in-out 0.5s;
+}
+
+.portfolio_hover_parent:hover .portfolio_hover{
+    top: 60%;
+}
+
+.portfolio_hover_parent:hover img{
+    transform: scale(1.2 , 1.2);
+}
+/* ========================end section 3============================================= */
